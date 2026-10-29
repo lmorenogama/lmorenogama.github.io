@@ -14,11 +14,13 @@ Open the local server in your browser when running on your own computer. Stop wi
 
 ## Edit the content
 
-- `index.html` contains all text and sections. Research descriptions are explicit placeholders, not publication claims. Review the introductory biography before publishing.
+- `index.html` is the quiet landing page. `about.html`, `research.html`, `cv.html`, and `contact.html` contain the individual sections. Research descriptions are explicit placeholders, not publication claims. Review the introductory biography before publishing.
 - `assets/style.css` controls colors, spacing, typography, and mobile layouts.
 - Portrait: add your photo under `assets/`, then replace the `.portrait-frame` div with an `img` using a relative path, descriptive alt text, and suitable width/height. Adjust its styling as needed.
 - CV: add `assets/cv.pdf` when supplied, then replace `.cv-placeholder` with an actual link to that file. There is intentionally no broken download link.
 - Contact: replace the placeholders with your supplied email and profile links. No contact details have been assumed.
+
+Always use Laura Elizabeth Moreno-Gama in visible name references. The Colombian flag accents and Spanish welcome celebrate her Colombian roots without attributing unprovided personal history.
 
 ## Publication
 
