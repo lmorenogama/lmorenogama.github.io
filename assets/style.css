@@ -67,3 +67,10 @@ a.cv-placeholder:hover{border-color:var(--sage)}
 .content-placeholder{margin-top:35px;padding:5px 0 15px;border-top:1px solid var(--line)}
 .page-intro{max-width:620px}
 @media(max-width:650px){.header nav{column-gap:20px;row-gap:14px}.welcome h1{font-size:29px}.personal-page h2,.fieldwork-page h2{font-size:25px}}
+
+.fieldwork-nav{display:flex;gap:8px;border-bottom:1px solid var(--line);margin:28px 0 32px}
+.fieldwork-nav a{padding:9px 20px;text-decoration:none;font-size:14px;border-bottom:2px solid transparent}
+.fieldwork-nav a[aria-current="page"]{border-bottom-color:var(--sage);color:var(--ink)}
+.fieldwork-nav a:hover{color:var(--sage)}
+.fieldwork-story h2{margin-top:0}
+.fieldwork-page p.fieldwork-lead{font-family:Georgia,'Times New Roman',serif;font-size:22px;line-height:1.6;color:var(--ink)}
