@@ -74,3 +74,9 @@ a.cv-placeholder:hover{border-color:var(--sage)}
 .fieldwork-nav a:hover{color:var(--sage)}
 .fieldwork-story h2{margin-top:0}
 .fieldwork-page p.fieldwork-lead{font-family:Georgia,'Times New Roman',serif;font-size:22px;line-height:1.6;color:var(--ink)}
+
+.profile-links{display:flex;gap:10px;margin-top:16px}
+.profile-links a{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid var(--line);border-radius:50%;color:var(--ink)}
+.profile-links a:hover{color:var(--sage);border-color:var(--sage)}
+.profile-links svg{width:21px;height:21px}
+@media(max-width:650px){.profile-sidebar .profile-links{grid-column:2;margin-top:12px}}
