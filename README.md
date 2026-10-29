@@ -22,7 +22,7 @@ Open the local server in your browser when running on your own computer. Stop wi
 - Content and email are drawn from the supplied CV. Academic profile URLs remain unprovided; add only confirmed links. Research titles and collaborators follow the CV; abstracts and publication metadata have not been inferred.
 
 
-Always use Laura Elizabeth Moreno-Gama in visible name references. The site uses white backgrounds. Colombian pride is expressed only on the Life outside academia page; flags and repeated pride labels have been removed. Personal hobbies and fieldwork stories remain placeholders until supplied by Laura Elizabeth. Language skills and places on the personal page come from her CV.
+Always use Laura Elizabeth Moreno-Gama in visible name references. The site uses white backgrounds. Colombian pride is expressed only on the Life outside academia page; flags and repeated pride labels have been removed. Personal interests, Cleopatra, places lived, and the Ecuador/Waorani reflection come from Laura Elizabeth’s own notes. Colombia fieldwork stories await further details. `fieldwork.html` and `fieldwork-colombia.html` provide the two location tabs using ordinary links, with no JavaScript dependency.
 
 ## Publication
 
