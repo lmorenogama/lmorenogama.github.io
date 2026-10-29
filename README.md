@@ -14,8 +14,9 @@ Open the local server in your browser when running on your own computer. Stop wi
 
 ## Edit the content
 
-- `index.html` is the quiet landing page. `about.html`, `research.html`, `cv.html`, and `contact.html` contain the individual sections. Research descriptions are explicit placeholders, not publication claims. Review the introductory biography before publishing.
+- `index.html` is the quiet landing page. `about.html`, `research.html`, `cv.html`, and `contact.html` contain the individual sections. Research titles and collaborators follow the supplied CV. Review the introductory biography before publishing.
 - `assets/style.css` controls colors, spacing, typography, and mobile layouts.
+- Banner: `assets/community-energy-banner.webp` is an AI-generated conceptual illustration of communities, landscapes, and energy transitions inspired by the Colombian Andes. It is not a photograph, actual map, or depiction of a specific field site. The full image is displayed without cropping, with a visible conceptual-illustration caption. The layout follows the supplied reference’s wide banner, stacked identity/navigation, and portrait sidebar while retaining the site’s typography and white background.
 - Portrait: `assets/Laura.jpg` is displayed on the home page without cropping or changing the original photo. Replace that file to update the portrait.
 - CV: `assets/cv.pdf` is the supplied original, linked from `cv.html`. Replace the PDF when updating the CV.
 - Content and email are drawn from the supplied CV. Academic profile URLs remain unprovided; add only confirmed links. Research titles and collaborators follow the CV; abstracts and publication metadata have not been inferred.
