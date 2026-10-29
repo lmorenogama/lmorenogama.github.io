@@ -16,13 +16,12 @@ Open the local server in your browser when running on your own computer. Stop wi
 
 - `index.html` is the quiet landing page. `about.html`, `research.html`, `cv.html`, and `contact.html` contain the individual sections. Research descriptions are explicit placeholders, not publication claims. Review the introductory biography before publishing.
 - `assets/style.css` controls colors, spacing, typography, and mobile layouts.
-- Portrait: add your photo under `assets/`, then replace the `.portrait-frame` div with an `img` using a relative path, descriptive alt text, and suitable width/height. Adjust its styling as needed.
+- Portrait: `assets/Laura.jpg` is displayed on the home page without cropping or changing the original photo. Replace that file to update the portrait.
 - CV: `assets/cv.pdf` is the supplied original, linked from `cv.html`. Replace the PDF when updating the CV.
 - Content and email are drawn from the supplied CV. Academic profile URLs remain unprovided; add only confirmed links. Research titles and collaborators follow the CV; abstracts and publication metadata have not been inferred.
-- The portrait still awaits a downloadable JPG/PNG upload; the inline chat image is not available as a workspace file.
 
 
-Always use Laura Elizabeth Moreno-Gama in visible name references. The Colombian flag accents and Spanish welcome celebrate her Colombian roots without attributing unprovided personal history.
+Always use Laura Elizabeth Moreno-Gama in visible name references. The site uses white backgrounds. The Colombian flag accents and Spanish welcome celebrate her Colombian roots without attributing unprovided personal history.
 
 ## Publication
 
