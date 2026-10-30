@@ -31,3 +31,7 @@ All asset paths are relative and work at the root of lmorenogama.github.io. The 
 ## Review checklist
 
 Check desktop and narrow mobile layouts, keyboard navigation and visible focus, the skip link, every section link, and supplied personal details before publication. No automated test suite is configured.
+
+## Research content notes
+
+Project overviews are preliminary scope descriptions based on titles and the owner's supplied topics, not abstracts or reported findings. Paasha Mahdavi's collaboration is supplied by Laura Elizabeth. The master's thesis title, year, institution, and advisors follow the supplied CV; it is listed as earlier work rather than undergraduate work. Crossref and RePEc lookup requests were blocked by the environment, so the article has a labeled Google Scholar title search and the thesis a labeled RePEc search, pending verified direct record links.
