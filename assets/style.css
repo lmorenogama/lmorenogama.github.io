@@ -91,3 +91,5 @@ a.cv-placeholder:hover{border-color:var(--sage)}
 .research-publications>h2,.research-early-work>h2{font-size:32px}
 .project .collaborators{font-size:13px}
 @media(max-width:650px){.research .project h2{font-size:24px}.research-publications>h2,.research-early-work>h2{font-size:28px}}
+
+.paper-links{display:flex;flex-wrap:wrap;gap:12px 24px}
