@@ -95,3 +95,10 @@ a.cv-placeholder:hover{border-color:var(--sage)}
 @media(max-width:650px){.research-page{--research-heading-size:28px;--paper-title-size:24px}}
 
 .paper-links{display:flex;flex-wrap:wrap;gap:12px 24px}
+
+/* Keep the CV link beside the education entries on wider screens. */
+.education-layout{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:32px;align-items:start}
+.education-layout .education-list{margin:0}
+.education-layout>.text-link{margin-top:20px;white-space:nowrap;justify-self:start}
+@media(max-width:900px){.education-layout .education-list>div{grid-template-columns:110px minmax(0,1fr);gap:16px}}
+@media(max-width:650px){.education-layout{grid-template-columns:1fr;gap:16px}.education-layout .education-list>div{grid-template-columns:1fr;gap:6px}.education-layout>.text-link{margin-top:0}}
