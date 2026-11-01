@@ -110,3 +110,10 @@ a.cv-placeholder:hover{border-color:var(--sage)}
 .cv-download:hover{background:var(--sage);border-color:var(--sage)}
 @media(min-width:651px){.personal-page:has(.education-layout){max-width:none}.education-layout{grid-template-columns:minmax(0,1fr) auto}}
 @media(max-width:650px){.cv-download{max-width:100%;padding:18px 22px}}
+
+/* Compact teaching headings and brief course overviews. */
+.teaching-page #teaching-title{font-size:32px;line-height:1.2}
+.teaching-page>h2{font-size:22px;letter-spacing:-.3px}
+.teaching-page .course-title{font-size:16px;font-weight:600}
+.teaching-page .course-description{font-size:14px;line-height:1.65;margin:8px 0 0}
+@media(max-width:650px){.teaching-page #teaching-title{font-size:28px}.teaching-page>h2{font-size:20px}}
