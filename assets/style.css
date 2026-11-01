@@ -102,3 +102,11 @@ a.cv-placeholder:hover{border-color:var(--sage)}
 .education-layout>.text-link{margin-top:20px;white-space:nowrap;justify-self:start}
 @media(max-width:900px){.education-layout .education-list>div{grid-template-columns:110px minmax(0,1fr);gap:16px}}
 @media(max-width:650px){.education-layout{grid-template-columns:1fr;gap:16px}.education-layout .education-list>div{grid-template-columns:1fr;gap:6px}.education-layout>.text-link{margin-top:0}}
+
+/* A prominent CV download alongside education. */
+.cv-download{display:inline-flex;align-items:center;gap:14px;justify-self:start;margin-top:0;padding:20px 24px;background:var(--ink);color:var(--paper);border:2px solid var(--ink);border-radius:6px;text-decoration:none;font-size:18px;font-weight:600;line-height:1.35}
+.cv-download-icon{font-size:30px;font-weight:400}
+.cv-download small{display:block;margin-top:6px;font-size:11px;font-weight:400}
+.cv-download:hover{background:var(--sage);border-color:var(--sage)}
+@media(min-width:651px){.personal-page:has(.education-layout){max-width:none}.education-layout{grid-template-columns:minmax(0,1fr) auto}}
+@media(max-width:650px){.cv-download{max-width:100%;padding:18px 22px}}
