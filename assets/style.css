@@ -117,3 +117,9 @@ a.cv-placeholder:hover{border-color:var(--sage)}
 .teaching-page .course-title{font-size:16px;font-weight:600}
 .teaching-page .course-description{font-size:14px;line-height:1.65;margin:8px 0 0}
 @media(max-width:650px){.teaching-page #teaching-title{font-size:28px}.teaching-page>h2{font-size:20px}}
+
+/* Fieldwork photography keeps the full frame visible. */
+.fieldwork-photo{margin:28px 0}
+.fieldwork-photo img{display:block;width:100%;max-width:440px;height:auto;margin:0 auto;border-radius:3px}
+.fieldwork-photo figcaption{font-size:12px;letter-spacing:0;line-height:1.5;margin-top:10px}
+@media(max-width:650px){.fieldwork-photo{margin:22px 0}.fieldwork-photo img{max-width:100%}}
