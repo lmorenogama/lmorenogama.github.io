@@ -139,3 +139,8 @@ a.cv-placeholder:hover{border-color:var(--sage)}
 /* Shared section-title scale across Research, Teaching, Education, and Fieldwork. */
 :root{--page-heading-size:32px}
 @media(max-width:650px){:root{--page-heading-size:28px}}
+
+/* A slightly larger name on the home page. */
+.home-page .wordmark{font-size:33px}
+@media(max-width:900px){.home-page .wordmark{font-size:31px}}
+@media(max-width:650px){.home-page .wordmark{font-size:28px}}
