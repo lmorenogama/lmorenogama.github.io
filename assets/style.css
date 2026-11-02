@@ -123,3 +123,9 @@ a.cv-placeholder:hover{border-color:var(--sage)}
 .fieldwork-photo img{display:block;width:100%;max-width:440px;height:auto;margin:0 auto;border-radius:3px}
 .fieldwork-photo figcaption{font-size:12px;letter-spacing:0;line-height:1.5;margin-top:10px}
 @media(max-width:650px){.fieldwork-photo{margin:22px 0}.fieldwork-photo img{max-width:100%}}
+
+/* A responsive gallery with uncropped fieldwork photographs. */
+.fieldwork-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:28px 0}
+.fieldwork-gallery a{display:flex;align-items:center;justify-content:center;background:#f5f6f2;border:1px solid var(--line);border-radius:3px;overflow:hidden}
+.fieldwork-gallery img{display:block;width:100%;height:320px;object-fit:contain}
+@media(max-width:650px){.fieldwork-gallery{grid-template-columns:1fr;gap:14px;margin:22px 0}.fieldwork-gallery img{height:auto;max-height:440px;object-fit:contain}}
